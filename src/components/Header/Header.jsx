@@ -5,8 +5,19 @@ const Header = (props) => {
         <nav className="navbar" role="navigation" aria-label="main navigation">
     <div className="navbar-brand">
         <a className="navbar-item" href="/dashboard">
-            <p className="is-size-4">Jeana Rose Mathis</p>
+            <a
+            className="navbar-item has-text-dark is-size-4"
+            href="https://www.linkedin.com/in/jeana-rose-mathis/"
+            target="_blank"
+            ><i className="fab fa-linkedin fa-lg"></i
+          ></a>
         </a>
+        <a
+            className="navbar-item has-text-dark is-size-4"
+            href="https://github.com/jeanarose"
+            target="_blank"
+            ><i className="fab fa-github fa-lg"></i
+          ></a>
         <a role="button" className="navbar-burger mr-0"
             onClick={()=> (document.querySelector('.navbar-menu').classList.toggle('is-active'))} aria-label="menu"
             aria-expanded="false" data-target="navbarBasicExample">

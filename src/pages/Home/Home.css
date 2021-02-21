@@ -1,13 +1,6 @@
-.hero::before {
-    content: "";
+.hero {
     background-image: url("../../images/hero-image.jpg");
     background-size: cover;
-    opacity: 0.4;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
   }
   
   .hero-title {
