@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.484cfc77.chunk.css",
-    "main.js": "/portfolio/static/js/main.bb223238.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.bb223238.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.37fe0395.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.37fe0395.js.map",
-    "static/js/2.6dc8721a.chunk.js": "/portfolio/static/js/2.6dc8721a.chunk.js",
-    "static/js/2.6dc8721a.chunk.js.map": "/portfolio/static/js/2.6dc8721a.chunk.js.map",
-    "static/js/3.1ac93c93.chunk.js": "/portfolio/static/js/3.1ac93c93.chunk.js",
-    "static/js/3.1ac93c93.chunk.js.map": "/portfolio/static/js/3.1ac93c93.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.43a06fd7.chunk.css",
+    "main.js": "/portfolio/static/js/main.3f989128.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3f989128.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.d0751e95.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.d0751e95.js.map",
+    "static/js/2.7c858bf9.chunk.js": "/portfolio/static/js/2.7c858bf9.chunk.js",
+    "static/js/2.7c858bf9.chunk.js.map": "/portfolio/static/js/2.7c858bf9.chunk.js.map",
+    "static/js/3.a09415fe.chunk.js": "/portfolio/static/js/3.a09415fe.chunk.js",
+    "static/js/3.a09415fe.chunk.js.map": "/portfolio/static/js/3.a09415fe.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.484cfc77.chunk.css.map": "/portfolio/static/css/main.484cfc77.chunk.css.map",
-    "static/js/2.6dc8721a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6dc8721a.chunk.js.LICENSE.txt",
+    "static/css/main.43a06fd7.chunk.css.map": "/portfolio/static/css/main.43a06fd7.chunk.css.map",
+    "static/js/2.7c858bf9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7c858bf9.chunk.js.LICENSE.txt",
     "static/media/burger-logger.8b0b09dd.png": "/portfolio/static/media/burger-logger.8b0b09dd.png",
     "static/media/code-quiz.5d774ad2.png": "/portfolio/static/media/code-quiz.5d774ad2.png",
     "static/media/dog-meet-dog.6febae80.png": "/portfolio/static/media/dog-meet-dog.6febae80.png",
+    "static/media/Home.css": "/portfolio/static/media/hero-image.2272c4a6.jpg",
     "static/media/password-generator.39c4c7fc.png": "/portfolio/static/media/password-generator.39c4c7fc.png",
     "static/media/visualize.fbcce0d0.png": "/portfolio/static/media/visualize.fbcce0d0.png",
     "static/media/weather-dashboard.9e917b53.png": "/portfolio/static/media/weather-dashboard.9e917b53.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.37fe0395.js",
-    "static/js/2.6dc8721a.chunk.js",
-    "static/css/main.484cfc77.chunk.css",
-    "static/js/main.bb223238.chunk.js"
+    "static/js/runtime-main.d0751e95.js",
+    "static/js/2.7c858bf9.chunk.js",
+    "static/css/main.43a06fd7.chunk.css",
+    "static/js/main.3f989128.chunk.js"
   ]
 }
