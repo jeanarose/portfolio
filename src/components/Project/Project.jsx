@@ -11,12 +11,14 @@ const Project = (props) => {
     const [projects, setProject] = useState([
         {
           name: 'Dog Meet Dog',
+          description: "Dog Meet Dog is a social media app for dogs to connect with other dogs, because your pup needs a furever friend too. This app was built using primarily Handlebars and server-side routing.",
           url: 'https://gentle-sea-84823.herokuapp.com/',
           github: 'https://github.com/jeanarose/dog-meet-dog',
           image: dogMeetDogImage
         },
         {
           name: 'Visualize',
+          description: "Visualize is a vision board generator designed to guide the user towards their goals and provide images to choose from. Visualize utilized jQuery and DOM manipulation.",
           url: 'https://jeanarose.github.io/vision-board/',
           github: 'https://github.com/jeanarose/vision-board',
           image: visualizeImage
@@ -48,31 +50,31 @@ const Project = (props) => {
       ])
     return (
       <>
-      <h1 className="title">Portfolio</h1>
-      <div className="columns is-multiline is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd">
+      <div className="columns is-multiline is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd mt-6">
 
       {projects.map(project => (
-        <div className="column is-4">
-        <div className="card">
-          <div className="card-image">
-            <figure className="image is-4by3">
-              <img src={project.image} alt="Placeholder image"/>
-            </figure>
-          </div>
-          <div className="card-content">
-            <div className="media">
-              <div className="media-content">
-                <p className="title is-4 has-text-centered">{project.name}</p>
+          <div className="column is-12">
+            <div className="container">
+              <div className="columns">
+                <div className="column is-4">
+                  <h1 className="title mb-0">{project.name}</h1>
+                  <div className="columns mb-0">
+                    <div className="column is-4 mb-0">
+                      <hr className="mb-0"/>
+                    </div>
+                  </div>
+                  <p className="mt-0 mb-3 pr-6">{project.description}</p>
+                  <a className="button" href={project.url}>Application</a>
+                  <a className="button ml-4" href={project.github}>GitHub</a>
+                </div>
+                <div className="column is-8">
+                  <img src={project.image} alt=""/>
+                </div>
               </div>
             </div>
+            <hr className="main-hr"/>
 
-            <div className="content has-text-centered">
-              <a href={project.url} className="button mr-2">Application</a>
-              <a href={project.github} className="button ml-2">GitHub</a>
-            </div>
           </div>
-        </div>
-        </div>
       ))}
       </div>
       
