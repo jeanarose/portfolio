@@ -11,28 +11,28 @@ const Header = (props) => {
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
             </a>
-            <div id="navbarBasicExample" className="navbar-menu">
+            <div id="navbarBasicExample" className="navbar-menu has-background-dark">
                 <div className="navbar-start ml-0 mt-2">
                     <div className="social-media has-text-right">
                     <a
                         href="https://www.linkedin.com/in/jeana-rose-mathis/"
                         target="_blank"
-                        ><i className="fab fa-linkedin fa-lg navbar-item is-size-3"></i></a>
+                        ><i className="fab fa-linkedin fa-lg navbar-item is-size-3 has-text-light"></i></a>
                     <a
                         href="https://github.com/jeanarose"
                         target="_blank"
-                        ><i className="fab fa-github fa-lg navbar-item is-size-3"></i></a>
+                        ><i className="fab fa-github fa-lg navbar-item is-size-3 has-text-light"></i></a>
                     </div>
                 </div>
                 <div className="navbar-end mr-0">
-                <a href="/" className="navbar-item has-text-right">
+                <a href="/" className="navbar-item has-text-right has-text-light">
                         Home
                     </a>
 
-                    <a href="/#/portfolio" className="navbar-item has-text-right">
+                    <a href="/#/portfolio" className="navbar-item has-text-right has-text-light">
                         Portfolio
                     </a>
-                    <a href="/#/contact" className="navbar-item has-text-right">
+                    <a href="/#/contact" className="navbar-item has-text-right has-text-light">
                         Contact
                     </a>
                 </div>      

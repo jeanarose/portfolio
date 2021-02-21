@@ -1,5 +1,6 @@
 import React from "react"
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import "./App.css"
 import Header from "./components/Header/Header"
 import Home from "./pages/Home/Home";
 import Portfolio from "./pages/Portfolio/Portfolio";
