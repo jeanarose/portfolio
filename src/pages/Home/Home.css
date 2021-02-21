@@ -1,9 +1,9 @@
-.hero {
+.home-hero {
     background-image: url("../../images/hero-image.jpg");
     background-size: cover;
   }
   
-  .hero-title {
+  .home-title {
     line-height: 1;
     text-shadow: 2px 2px #5555552c;
   }

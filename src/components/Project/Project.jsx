@@ -50,8 +50,17 @@ const Project = (props) => {
       ])
     return (
       <>
+      <section className="hero is-medium is-link has-text-centered">
+        <div id="portfolio-hero" className="hero-body">
+          <h1 className="title">
+            Portfolio
+          </h1>
+          <p className="subtitle">
+            Medium subtitle
+          </p>
+        </div>
+      </section>
       <div className="columns is-multiline is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd mt-6">
-
       {projects.map(project => (
           <div className="column is-12">
             <div className="container">

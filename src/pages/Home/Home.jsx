@@ -3,11 +3,11 @@ import "./Home.css"
 
 const Home = (props) => {
     return (
-      <section class="hero is-fullheight">
-      <div class="hero-body has-text-centered">
+      <section className="hero home-hero is-fullheight">
+      <div className="hero-body has-text-centered">
         <div className="columns is-justify-content-center">
           <div className="column is-three-quarters hero-body">
-          <p class="title hero-title is-size-1 has-text-light hax-text-weight-bold">
+          <p className="title home-title is-size-1 has-text-light hax-text-weight-bold">
         Hi, I'm Jeana Rose. I am a full stack developer who is open to work.
         </p>
           </div>
