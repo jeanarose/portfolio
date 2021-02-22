@@ -5,5 +5,7 @@
   
   .home-title {
     line-height: 1;
-    text-shadow: 2px 2px #5555552c;
+    font-family: "Playfair Display", serif;
+    text-shadow: 1px 1px #835f662e;
+    /* font-size: larger; */
   }

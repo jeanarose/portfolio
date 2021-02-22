@@ -25,7 +25,7 @@ const Header = (props) => {
                     </div>
                 </div>
                 <div className="navbar-end mr-0">
-                <a href="/" className="navbar-item has-text-right has-text-light">
+                <a href="/#/" className="navbar-item has-text-right has-text-light">
                         Home
                     </a>
 
