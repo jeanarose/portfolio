@@ -56,11 +56,11 @@ const Project = (props) => {
       <div className="columns is-multiline is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd mt-6">
         {projects.map((project) => (
           <div className="column is-12">
-            <FadeInSection>
+            {/* <FadeInSection> */}
               <div className="container">
                 <div className="columns">
                   <div className="column is-4">
-                    <h1 className="title mb-0">{project.name}</h1>
+                    <h1 className="title is-size-3 mb-0">{project.name}</h1>
                     <div className="columns mb-0">
                       <div className="column is-4 mb-0">
                         <hr className="mb-0" />
@@ -80,7 +80,7 @@ const Project = (props) => {
                 </div>
               </div>
               <hr className="main-hr" />
-            </FadeInSection>
+            {/* </FadeInSection> */}
           </div>
         ))}
       </div>
