@@ -28,28 +28,32 @@ const Project = (props) => {
     },
     {
       name: "Weather Dashboard ",
-      description: "Weather Dashboard is a dynamic jQuery app designed to display the forecast for the current day and the next five days of a city that the user searches. The application stores the user's recently searched cities into local storage and displays them on the left-hand side. The user can simply click on the recently searched cities to view the weather for each city.",
+      description:
+        "Weather Dashboard is a dynamic jQuery app designed to display the forecast for the current day and the next five days of a city that the user searches. The application stores the user's recently searched cities into local storage and displays them on the left-hand side. The user can simply click on the recently searched cities to view the weather for each city.",
       url: "https://jeanarose.github.io/weather-dashboard",
       github: "https://github.com/jeanarose/weather-dashboard",
       image: weatherDashboardImage,
     },
     {
       name: "Password Generator",
-      description: "Password Generator was created to generate a random password when the button Generate Password is clicked. The password is dependent on answers to a series of prompts that the user receives when the button is clicked.",
+      description:
+        "Password Generator was created to generate a random password when the button Generate Password is clicked. The password is dependent on answers to a series of prompts that the user receives when the button is clicked.",
       url: "https://jeanarose.github.io/password-generator",
       github: "https://github.com/jeanarose/password-generator",
       image: passwordGeneratorImage,
     },
     {
       name: "Code Quiz",
-      description: "Code Quiz is here to test users' coding knowledge. At the start of a button, the user is given a timed quiz that displays one question at a time. Code Quiz was designed to be a dynamic JavaScript application.",
+      description:
+        "Code Quiz is here to test users' coding knowledge. At the start of a button, the user is given a timed quiz that displays one question at a time. Code Quiz was designed to be a dynamic JavaScript application.",
       url: "https://jeanarose.github.io/code-quiz",
       github: "https://github.com/jeanarose/code-quiz",
       image: codeQuizImage,
     },
     {
       name: "Burger Logger",
-      description: "Burger Logger is a fun app to keep track of burgers that have been devoured and burgers that have yet to be devoured. This app is a simple representation of the usefulness of a model-view controller (MVC). ",
+      description:
+        "Burger Logger is a fun app to keep track of burgers that have been devoured and burgers that have yet to be devoured. This app is a simple representation of the usefulness of a model-view controller (MVC). ",
       url: "https://dry-anchorage-08139.herokuapp.com/",
       github: "https://github.com/jeanarose/burger-logger",
       image: burgerLoggerImage,

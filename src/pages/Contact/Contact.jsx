@@ -1,9 +1,14 @@
 import React, { useState } from "react";
+import { useEffect } from "react/cjs/react.development";
 
 const Contact = (props) => {
   const [contact, setContact] = useState({
     name: "",
     message: "",
+  });
+
+  useEffect(() => {
+    document.title = "Concact";
   });
 
   const handleFormSubmit = () => {

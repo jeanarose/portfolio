@@ -2,6 +2,9 @@ import React, { useEffect } from "react";
 import "./Home.css";
 
 const Home = (props) => {
+  useEffect(() => {
+    document.title = "Home";
+  });
   return (
     <section className="hero home-hero is-fullheight">
       <div className="hero-body has-text-centered">

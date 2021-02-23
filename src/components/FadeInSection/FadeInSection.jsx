@@ -15,7 +15,6 @@ function FadeInSection(props) {
     return () => observer.unobserve(domRef.current);
   }, []);
 
-
   return (
     <div
       className={`fade-in-section ${isVisible ? "is-visible" : ""}`}
