@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Portfolio
+[![GitHub issues](https://img.shields.io/github/issues/jeanarose/portfolio)](https://github.com/jeanarose/portfolio/issues)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+[Portfolio](https://jeanarose.github.io/portfolio/) is a webpage that showcases my software development work. My Portfolio was designed to be a responsive webpage using primarily Bootstrap. Several components were used to make this webpage responsive and follow best coding practices such as:
 
-In the project directory, you can run:
+- Use of the Bootstrap grid system to optimize responsiveness, specifically a collapsible navigation bar and defined breakpoints for best visuals at each screen size
+- A consistent navigation bar across all webpages
+- Semantic HTML elements
+- A sticky footer
+- Comments to break-up sections for future software developers to understand the code better
+- CSS organized by specificty
+- An HTML validation service to ensure best HTML practices
 
-### `npm start`
+During the development of this website, the value of the grid system was evident and utilized throughout.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+View the deployed application here: https://jeanarose.github.io/portfolio/
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Portfolio
 
-### `npm test`
+![Screenshot of Portfolio webpage.](assets/images/README/portfolio.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Table of Contents
 
-### `npm run build`
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Tests](#tests)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Go to the [GitHub repository for Portfolio](https://github.com/jeanarose/portfolio).
+2. Click the green **Code** button.
+3. Copy the SSH key.
+4. In your terminal, go into the directory that you want to host Portfolio.
+5. Use the command **git clone [insert SSH key URL]** and click **Enter** (Requires Git).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+Portfolio can be used to view Jeana Rose's work by clicking on each image that showcases her work under the Portfolio page (see [here](https://jeanarose.github.io/portfolio/portfolio.html)).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Screenshot of portfolio page with images that showcase Jeana Rose's work.](./assets/images/README/portfolio.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Use the social media links in the navbar to view my LinkedIn, GitHub, and Codepen profiles.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Credits
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [Stack Overflow (Zi Gang) - Code to float 'ul's in navbar right](https://stackoverflow.com/questions/48698692/bootstrap-float-navbar-items-to-the-right)
+- [Stack Overflow (Zim) - Code to change navbar-brand color](https://stackoverflow.com/questions/48716874/boostrap-navbar-how-to-change-text-color-on-navbar-brand-class)
+- [MDBootstrap - Code for footer](https://mdbootstrap.com/docs/jquery/navigation/footer/)
+- [W3Schools - Code to make footer sticky](https://www.w3schools.com/howto/howto_css_fixed_footer.asp)
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+MIT License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Copyright (c) 2020 Jeana Rose Mathis
 
-### Code Splitting
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### Analyzing the Bundle Size
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Tests
 
-### Making a Progressive Web App
+Interested in testing Portfolio? Check the following:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Links are functioning properly
+- Social media links open in new tab
+- All webpages are responsive
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
