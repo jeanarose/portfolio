@@ -33,18 +33,18 @@ const Header = (props) => {
           </div>
         </div>
         <div className="navbar-end mr-0">
-          <a href="/#/" className="navbar-item has-text-right has-text-light">
+          <a href="/portfolio/#/" className="navbar-item has-text-right has-text-light">
             Home
           </a>
 
           <a
-            href="/#/portfolio"
+            href="/portfolio/#/portfolio"
             className="navbar-item has-text-right has-text-light"
           >
             Portfolio
           </a>
           <a
-            href="/#/contact"
+            href="/portfolio/#/contact"
             className="navbar-item has-text-right has-text-light"
           >
             Contact
