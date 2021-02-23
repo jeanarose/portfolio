@@ -17,6 +17,7 @@ const Project = (props) => {
       url: "https://gentle-sea-84823.herokuapp.com/",
       github: "https://github.com/jeanarose/dog-meet-dog",
       image: dogMeetDogImage,
+      id: "1029384c0asdf0897",
     },
     {
       name: "Visualize",
@@ -25,6 +26,7 @@ const Project = (props) => {
       url: "https://jeanarose.github.io/vision-board/",
       github: "https://github.com/jeanarose/vision-board",
       image: visualizeImage,
+      id: "23p98sdoi23iudas34"
     },
     {
       name: "Weather Dashboard ",
@@ -33,6 +35,7 @@ const Project = (props) => {
       url: "https://jeanarose.github.io/weather-dashboard",
       github: "https://github.com/jeanarose/weather-dashboard",
       image: weatherDashboardImage,
+      id: "123p90d02kd023wef089"
     },
     {
       name: "Password Generator",
@@ -41,6 +44,7 @@ const Project = (props) => {
       url: "https://jeanarose.github.io/password-generator",
       github: "https://github.com/jeanarose/password-generator",
       image: passwordGeneratorImage,
+      id: "2q398df902uhdf0su3f"
     },
     {
       name: "Code Quiz",
@@ -49,6 +53,7 @@ const Project = (props) => {
       url: "https://jeanarose.github.io/code-quiz",
       github: "https://github.com/jeanarose/code-quiz",
       image: codeQuizImage,
+      id: "asd90f8234ioasd02234"
     },
     {
       name: "Burger Logger",
@@ -57,6 +62,7 @@ const Project = (props) => {
       url: "https://dry-anchorage-08139.herokuapp.com/",
       github: "https://github.com/jeanarose/burger-logger",
       image: burgerLoggerImage,
+      id: "aslikuj239c87wge39df73"
     },
   ]);
   return (

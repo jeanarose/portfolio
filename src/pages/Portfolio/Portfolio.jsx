@@ -12,7 +12,7 @@ const Portfolio = (props) => {
           <h1 className="title is-size-1">Portfolio</h1>
         </div>
       </section>
-      <Project />
+      <Project {...props} key={props.id} />
     </>
   );
 };
