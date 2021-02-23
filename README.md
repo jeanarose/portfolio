@@ -3,23 +3,18 @@
 
 ## Description
 
-[Portfolio](https://jeanarose.github.io/portfolio/) is a webpage that showcases my software development work. My Portfolio was designed to be a responsive webpage using primarily Bootstrap. Several components were used to make this webpage responsive and follow best coding practices such as:
+[Portfolio](https://jeanarose.github.io/portfolio/) is a webpage that showcases my software development work. Portfolio was designed to be a responsive webpage using primarily React and Bulma. Several components were used to make this webpage responsive and follow best coding practices such as:
 
-- Use of the Bootstrap grid system to optimize responsiveness, specifically a collapsible navigation bar and defined breakpoints for best visuals at each screen size
+- React components, state, and hooks
+- Use of Bulma classes
 - A consistent navigation bar across all webpages
 - Semantic HTML elements
-- A sticky footer
-- Comments to break-up sections for future software developers to understand the code better
-- CSS organized by specificty
-- An HTML validation service to ensure best HTML practices
-
-During the development of this website, the value of the grid system was evident and utilized throughout.
 
 View the deployed application here: https://jeanarose.github.io/portfolio/
 
 ## Portfolio
 
-![Screenshot of Portfolio webpage.](assets/images/README/portfolio.png)
+![Screenshot of Portfolio webpage.](src/images/portfolio.png)
 
 ## Table of Contents
 
@@ -39,24 +34,20 @@ View the deployed application here: https://jeanarose.github.io/portfolio/
 
 ## Usage
 
-Portfolio can be used to view Jeana Rose's work by clicking on each image that showcases her work under the Portfolio page (see [here](https://jeanarose.github.io/portfolio/portfolio.html)).
+Portfolio can be used to view my work and source code. Simply click on the **Application** and **GitHub** buttons.
+Use the social media links in the navbar to view my LinkedIn and GitHub profiles.
 
-![Screenshot of portfolio page with images that showcase Jeana Rose's work.](./assets/images/README/portfolio.png)
+![Screenshot of portfolio page with images that showcase Jeana Rose's work.](src/images/projects.png)
 
-Use the social media links in the navbar to view my LinkedIn, GitHub, and Codepen profiles.
 
 ## Credits
 
-- [Stack Overflow (Zi Gang) - Code to float 'ul's in navbar right](https://stackoverflow.com/questions/48698692/bootstrap-float-navbar-items-to-the-right)
-- [Stack Overflow (Zim) - Code to change navbar-brand color](https://stackoverflow.com/questions/48716874/boostrap-navbar-how-to-change-text-color-on-navbar-brand-class)
-- [MDBootstrap - Code for footer](https://mdbootstrap.com/docs/jquery/navigation/footer/)
-- [W3Schools - Code to make footer sticky](https://www.w3schools.com/howto/howto_css_fixed_footer.asp)
-
+- [Kristofer Giltvedt Selbekk - How to fade in content as it scrolls into view](https://www.selbekk.io/blog/2019/08/how-to-fade-in-content-as-it-scrolls-into-view/)
 ## License
 
 MIT License
 
-Copyright (c) 2020 Jeana Rose Mathis
+Copyright (c) 2021 Jeana Rose Mathis
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
