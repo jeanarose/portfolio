@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { useEffect } from "react/cjs/react.development";
+import React, { useState, useEffect } from "react";
 
 const Contact = (props) => {
   const [contact, setContact] = useState({
@@ -8,7 +7,7 @@ const Contact = (props) => {
   });
 
   useEffect(() => {
-    document.title = "Concact";
+    document.title = "Contact";
   });
 
   const handleFormSubmit = () => {
