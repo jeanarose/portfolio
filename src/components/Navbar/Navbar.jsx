@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-scroll"
 import "./Navbar.css";
 
 const Navbar = (props) => {
@@ -33,17 +34,18 @@ const Navbar = (props) => {
           </div>
         </div>
         <div className="navbar-end mr-0">
-          {/* <a href="/portfolio/#/" className="navbar-item has-text-right has-text-light">
-            Home
-          </a> */}
-{/* 
-          <a
-            href="/portfolio/#/portfolio"
+          <Link
+            to="projects"
             className="navbar-item has-text-right has-text-light"
+            active="text-white"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
           >
-            Portfolio
-          </a>
-          <a
+            Projects
+          </Link>
+          {/* <a
             href="/portfolio/#/contact"
             className="navbar-item has-text-right has-text-light"
           >
