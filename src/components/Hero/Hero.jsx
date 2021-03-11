@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import "./Home.css";
+import "./Hero.css";
 
-const Home = (props) => {
+const Hero = (props) => {
   useEffect(() => {
-    document.title = "Home";
+    document.title = "Jeana Rose Mathis";
   });
   return (
     <section className="hero home-hero is-fullheight">
@@ -21,4 +21,4 @@ const Home = (props) => {
   );
 };
 
-export default Home;
+export default Hero;

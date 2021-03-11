@@ -1,7 +1,7 @@
 import React from "react";
-import "./Header.css";
+import "./Navbar.css";
 
-const Header = (props) => {
+const Navbar = (props) => {
   return (
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <a
@@ -33,10 +33,10 @@ const Header = (props) => {
           </div>
         </div>
         <div className="navbar-end mr-0">
-          <a href="/portfolio/#/" className="navbar-item has-text-right has-text-light">
+          {/* <a href="/portfolio/#/" className="navbar-item has-text-right has-text-light">
             Home
-          </a>
-
+          </a> */}
+{/* 
           <a
             href="/portfolio/#/portfolio"
             className="navbar-item has-text-right has-text-light"
@@ -48,11 +48,11 @@ const Header = (props) => {
             className="navbar-item has-text-right has-text-light"
           >
             Contact
-          </a>
+          </a> */}
         </div>
       </div>
     </nav>
   );
 };
 
-export default Header;
+export default Navbar;
