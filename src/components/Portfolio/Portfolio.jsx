@@ -1,10 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Project from "../../components/Project/Project";
 
 const Portfolio = (props) => {
-  useEffect(() => {
-    document.title = "Portfolio";
-  });
   return (
     <>
       <section className="hero is-small is-primary has-text-centered">

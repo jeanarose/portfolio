@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Project.css";
 import FadeInSection from "../FadeInSection/FadeInSection";
+import roamImage from "../../images/roam.png";
 import dogMeetDogImage from "../../images/dog-meet-dog.png";
 import visualizeImage from "../../images/visualize.png";
 import weatherDashboardImage from "../../images/weather-dashboard.png";
@@ -10,6 +11,15 @@ import burgerLoggerImage from "../../images/burger-logger.png";
 
 const Project = (props) => {
   const [projects, setProject] = useState([
+    {
+      name: "Roam",
+      description:
+        "Roam is a group vacation planning application built using the MERN stack. The application allows users to create a trip and invite their travel companions to plan the trip with them. With Roam you can easily track expenses and split costs among group members. Roam also features a group checklist to streamline the trip planning process.",
+      url: "www.roam-together.com",
+      github: "https://github.com/jeanarose/roam",
+      image: roamImage,
+      id: "10992kcck30xaa200xs",
+    },
     {
       name: "Dog Meet Dog",
       description:
@@ -26,7 +36,7 @@ const Project = (props) => {
       url: "https://jeanarose.github.io/vision-board/",
       github: "https://github.com/jeanarose/vision-board",
       image: visualizeImage,
-      id: "23p98sdoi23iudas34"
+      id: "23p98sdoi23iudas34",
     },
     {
       name: "Weather Dashboard ",
@@ -35,7 +45,7 @@ const Project = (props) => {
       url: "https://jeanarose.github.io/weather-dashboard",
       github: "https://github.com/jeanarose/weather-dashboard",
       image: weatherDashboardImage,
-      id: "123p90d02kd023wef089"
+      id: "123p90d02kd023wef089",
     },
     {
       name: "Password Generator",
@@ -44,7 +54,7 @@ const Project = (props) => {
       url: "https://jeanarose.github.io/password-generator",
       github: "https://github.com/jeanarose/password-generator",
       image: passwordGeneratorImage,
-      id: "2q398df902uhdf0su3f"
+      id: "2q398df902uhdf0su3f",
     },
     {
       name: "Code Quiz",
@@ -53,7 +63,7 @@ const Project = (props) => {
       url: "https://jeanarose.github.io/code-quiz",
       github: "https://github.com/jeanarose/code-quiz",
       image: codeQuizImage,
-      id: "asd90f8234ioasd02234"
+      id: "asd90f8234ioasd02234",
     },
     {
       name: "Burger Logger",
@@ -62,7 +72,7 @@ const Project = (props) => {
       url: "https://dry-anchorage-08139.herokuapp.com/",
       github: "https://github.com/jeanarose/burger-logger",
       image: burgerLoggerImage,
-      id: "aslikuj239c87wge39df73"
+      id: "aslikuj239c87wge39df73",
     },
   ]);
   return (
@@ -70,31 +80,31 @@ const Project = (props) => {
       <div className="columns is-multiline is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd mt-6">
         {projects.map((project) => (
           <div className="column is-12">
-            {/* <FadeInSection> */}
-            <div className="container">
-              <div className="columns">
-                <div className="column is-4">
-                  <h1 className="title is-size-3 mb-0">{project.name}</h1>
-                  <div className="columns mb-0">
-                    <div className="column is-4 mb-0">
-                      <hr className="mb-0" />
+            <FadeInSection>
+              <div className="container">
+                <div className="columns">
+                  <div className="column is-4">
+                    <h1 className="title is-size-3 mb-0">{project.name}</h1>
+                    <div className="columns mb-0">
+                      <div className="column is-4 mb-0">
+                        <hr className="mb-0" />
+                      </div>
                     </div>
+                    <p className="mt-0 mb-3 pr-6">{project.description}</p>
+                    <a className="button" href={project.url}>
+                      Application
+                    </a>
+                    <a className="button ml-4" href={project.github}>
+                      GitHub
+                    </a>
                   </div>
-                  <p className="mt-0 mb-3 pr-6">{project.description}</p>
-                  <a className="button" href={project.url}>
-                    Application
-                  </a>
-                  <a className="button ml-4" href={project.github}>
-                    GitHub
-                  </a>
-                </div>
-                <div className="column is-8">
-                  <img src={project.image} alt="" />
+                  <div className="column is-8">
+                    <img src={project.image} alt="" />
+                  </div>
                 </div>
               </div>
-            </div>
-            <hr className="main-hr" />
-            {/* </FadeInSection> */}
+              <hr className="main-hr" />
+            </FadeInSection>
           </div>
         ))}
       </div>
