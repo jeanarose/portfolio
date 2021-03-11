@@ -4,21 +4,14 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero"
-import Portfolio from "./pages/Portfolio/Portfolio";
-import Contact from "./pages/Contact/Contact";
+import Portfolio from "./components/Portfolio/Portfolio";
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
-      {/* <Router>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
-      </Router> */}
+      <Portfolio />
       <Footer />
     </>
   );
