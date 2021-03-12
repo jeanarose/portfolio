@@ -7,7 +7,7 @@ p {
   font-size: large;
 }
 
-.is-size-1, .title {
+.title, .subtitle {
   font-family: 'Poppins', sans-serif;
 }
 

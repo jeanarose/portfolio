@@ -1,13 +1,57 @@
 .hero-section {
   background-image: url("../../images/hero-test.png");
-  /* background-size: contain;
-  background-repeat: no-repeat; */
   background-size: cover;
+  /* background-repeat: no-repeat;
   position: relative;
-  top: 40%;
+  top: 40%; */
 }
 
 .hero-title {
-  position: absolute;
+  font-size: 65px !important;
   max-width: 800px;
+}
+
+.hero-subtitle {
+  font-size: 40px !important;
+}
+
+/* 
+.hero-title {
+  position: absolute;
+  top: 40%;
+  max-width: 800px;
+  font-size: 65px !important;
+}
+
+@media screen and (max-width: 865px) {
+  .hero-title{
+    font-size: 50px !important;
+    position: absolute;
+    top: 26%;
+  }
+}
+
+@media screen and (max-width: 687px) {
+  .hero-title{
+    font-size: 40px !important;
+    position: absolute;
+    top: 23%;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .hero-title{
+    position: absolute;
+    top: 23%;
+    font-size: 30px !important;
+  }
+} */
+
+@media screen and (max-width: 1023px) {
+  .hero-title {
+    font-size: 45px !important;
+  }
+  .hero-subtitle {
+    font-size: 25px !important;
+  }
 }

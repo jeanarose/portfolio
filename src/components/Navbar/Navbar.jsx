@@ -4,9 +4,16 @@ import "./Navbar.css";
 
 const Navbar = (props) => {
   return (
-    <nav className="navbar ml-4 mr-4" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item is-size-3 has-text-dark" href="https://bulma.io">
+    <nav
+      className="navbar ml-4 mr-4"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div className="navbar-brand">
+        <a
+          className="navbar-item is-size-3 has-text-dark"
+          href="https://bulma.io"
+        >
           JRM
         </a>
         <a
