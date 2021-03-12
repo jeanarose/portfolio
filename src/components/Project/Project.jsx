@@ -91,10 +91,10 @@ const Project = (props) => {
                       </div>
                     </div>
                     <p className="mt-0 mb-3 pr-6">{project.description}</p>
-                    <a className="button" href={project.url}>
+                    <a className="button app-button" href={project.url}>
                       Application
                     </a>
-                    <a className="button ml-4" href={project.github}>
+                    <a className="button github-button ml-4" href={project.github}>
                       GitHub
                     </a>
                   </div>

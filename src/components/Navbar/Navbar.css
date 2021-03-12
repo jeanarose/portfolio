@@ -2,11 +2,14 @@
   color: rgb(216, 216, 216) !important;
 }
 
-.navbar-menu {
-  background-color: whitesmoke;
+a.navbar-item.has-text-right.has-text-light:hover {
+  background-color: #363636;
 }
 
-a.navbar-item.has-text-right.has-text-light:hover {
-  color: black !important;
-  background-color: whitesmoke;
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand:hover {
+  background-color: #363636 !important;
 }
