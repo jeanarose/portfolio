@@ -25,7 +25,7 @@ const Navbar = (props) => {
         </a>
       </div>
       <div id="navbarBasicExample" className="navbar-menu">
-        <div className="navbar-start">
+        <div className="navbar-start ml-0">
           <Link
             to="about"
             className="navbar-item has-text-right has-text-dark"
@@ -49,7 +49,7 @@ const Navbar = (props) => {
             Projects
           </Link>
         </div>
-        <div className="navbar-end mt-2">
+        <div className="navbar-end mt-2 mr-0">
           <div className="social-media has-text-right">
             <a
               href="https://www.linkedin.com/in/jeana-rose-mathis/"
