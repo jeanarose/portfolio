@@ -19,12 +19,12 @@ const Navbar = (props) => {
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </a>
-      <div id="navbarBasicExample" className="navbar-menu has-background-dark">
+      <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start ml-4">
-          <a href="" className="navbar-item navbar-brand is-size-3 has-text-light">JRM</a>
+          <a href="" className="navbar-item navbar-brand is-size-3 has-text-dark">JRM</a>
           <Link
             to="about"
-            className="navbar-item has-text-right has-text-light"
+            className="navbar-item has-text-right has-text-dark"
             active="text-white"
             spy={true}
             smooth={true}
@@ -35,7 +35,7 @@ const Navbar = (props) => {
           </Link>
           <Link
             to="projects"
-            className="navbar-item has-text-right has-text-light"
+            className="navbar-item has-text-right has-text-dark"
             active="text-white"
             spy={true}
             smooth={true}
@@ -51,10 +51,10 @@ const Navbar = (props) => {
               href="https://www.linkedin.com/in/jeana-rose-mathis/"
               target="_blank"
             >
-              <i className="fab fa-linkedin fa-lg navbar-item is-size-3 has-text-light"></i>
+              <i className="fab fa-linkedin fa-lg navbar-item is-size-3 has-text-dark"></i>
             </a>
             <a href="https://github.com/jeanarose" target="_blank">
-              <i className="fab fa-github fa-lg navbar-item is-size-3 has-text-light"></i>
+              <i className="fab fa-github fa-lg navbar-item is-size-3 has-text-dark"></i>
             </a>
           </div>
         </div>

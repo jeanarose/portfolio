@@ -1,15 +1,21 @@
 .navbar-item:hover {
-  color: rgb(216, 216, 216) !important;
+  color: black;
+  background-color: whitesmoke !important;
 }
 
 a.navbar-item.has-text-right.has-text-light:hover {
-  background-color: #363636;
+  background-color: whitesmoke;
+}
+
+.navbar-brand:hover {
+  background-color: whitesmoke !important;
 }
 
 .navbar-brand {
   font-family: 'Poppins', sans-serif;
 }
 
-.navbar-brand:hover {
-  background-color: #363636 !important;
+#navbarBasicExample, .navbar {
+  background-color: whitesmoke;
 }
+
