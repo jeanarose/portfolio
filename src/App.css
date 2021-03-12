@@ -9,4 +9,9 @@ p {
 
 .is-size-1 {
   font-family: "Playfair Display", serif;
+  /* font-family: "Work Sans", sans-serif; */
+}
+
+.is-primary {
+  background-color: #4287f5 !important;
 }
