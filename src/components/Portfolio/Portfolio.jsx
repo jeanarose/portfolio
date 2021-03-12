@@ -7,13 +7,12 @@ import "./Portfolio.css";
 const Portfolio = (props) => {
   return (
       <section id="projects" className="projects-section">
-        <img className="projects-image mt-6" src={projectImage} alt="" />
-        {/* <p
-          id="projects"
+        {/* <img className="projects-image mt-6" src={projectImage} alt="" /> */}
+        <p
           className="title projects-title has-text-centered is-size-1"
         >
           Projects
-        </p> */}
+        </p>
         <Project {...props} key={props.id} />
       </section>
   );
