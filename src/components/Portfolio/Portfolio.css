@@ -1,21 +1,5 @@
 /* .projects-section {
-    position: relative;
-}
-
-.projects-image {
-  display: block;
-  position: relative;
-  width: 100%;
-  max-height: 700px;
-  object-fit: cover;
-}
-
-.projects-title {
-  font-size: 65px !important;
-  position: absolute;
-  top: 7%;
-  left: 0;
-  right: 0;
-  
+  background-image: url("../../images/projects-background.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 } */
-

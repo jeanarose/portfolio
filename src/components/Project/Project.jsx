@@ -99,7 +99,7 @@ const Project = (props) => {
                     </a>
                   </div>
                   <div className="column is-8">
-                    <img src={project.image} alt="" />
+                    <img className="project-image" src={project.image} alt="" />
                   </div>
                 </div>
               </div>

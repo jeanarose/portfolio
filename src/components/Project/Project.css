@@ -1,6 +1,5 @@
-.portfolio-image {
-  height: 350px;
-  /* width: 100% */
+.project-image {
+  border-radius: 0.5%;
 }
 
 .main-hr {

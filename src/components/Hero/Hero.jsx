@@ -14,7 +14,7 @@ const Hero = (props) => {
     //         Hi, I'm Jeana Rose, and I am a full stack developer.
     //       </p>
     // </section>
-    <section class="hero hero-section is-fullheight">
+    <section class="hero hero-section is-fullheight mb-6">
       <div class="hero-body">
         <div class="">
           <p class="title is-size-1 hero-title">
