@@ -12,3 +12,16 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.resume-button {
+  border: solid 2px #0575E6;
+  background-color: #0575E6;
+  color: whitesmoke;
+  transition: 0.7s;
+}
+
+.resume-button:hover {
+  background-color: transparent;
+  border: solid 2px #0575E6;
+  color: whitesmoke;
+  transition: 0.7s;
+}
