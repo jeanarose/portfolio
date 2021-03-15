@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = (props) => {
   return (
-    <footer className="footer mt-6 pb-6 ">
+    <footer className="footer pb-6 ">
       <div className="content has-text-centered">
         <p>
           <strong className="">Portfolio</strong> by Jeana Rose

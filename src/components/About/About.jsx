@@ -10,14 +10,12 @@ const About = () => {
           <h1 className="title is-size-1 has-text-centered has-text-light">
             About
           </h1>
-          <div
-            id="about"
-            className="columns is-vcentered pr-5 pl-5"
-          >
+          <div id="about" className="columns is-vcentered pr-5 pl-5">
             <div className="column is-6 about-me">
               <img className="profile-picture" src={profilePicture} alt="" />
             </div>
             <div className="column is-6 p-6 has-text-light">
+              <h1 className="title has-text-light">Jeana Rose Mathis</h1>
               <p>
                 I am a recent graduate from the University of Georgia with a
                 B.S. in Public Health. I knew when I graduated that I did not

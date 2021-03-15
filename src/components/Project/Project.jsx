@@ -77,44 +77,48 @@ const Project = (props) => {
   ]);
   return (
     <>
-      <p className="title has-text-centered is-size-1 mt-6 pt-6">
-        Projects
-      </p>
-      <div className="columns is-multiline is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd mt-6">
-        {projects.map((project) => (
-          <div className="column is-12">
-            <FadeInSection>
-              <div className="container">
-                <div className="columns ">
-                  <div className="column is-4">
-                    <h1 className="title is-size-3 mb-0 ">
-                      {project.name}
-                    </h1>
-                    <div className="columns mb-0">
-                      <div className="column is-4 mb-0">
-                        <hr className="mb-0" />
+      <div className="project-section">
+        <p className="title has-text-centered is-size-1 mt-6 pt-6">Projects</p>
+        <div className="columns is-multiline is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd mt-6">
+          {projects.map((project) => (
+            <div className="column is-12">
+              <FadeInSection>
+                <div className="container">
+                  <div className="columns ">
+                    <div className="column is-4">
+                      <h1 className="title is-size-3 mb-0 ">{project.name}</h1>
+                      <div className="columns mb-0">
+                        <div className="column is-4 mb-0">
+                          <hr className="mb-0" />
+                        </div>
                       </div>
+                      <p className="project-description mt-0 mb-3 pr-6">
+                        {project.description}
+                      </p>
+                      <a className="button app-button" href={project.url}>
+                        Application
+                      </a>
+                      <a
+                        className="button github-button ml-4"
+                        href={project.github}
+                      >
+                        GitHub
+                      </a>
                     </div>
-                    <p className="mt-0 mb-3 pr-6">{project.description}</p>
-                    <a className="button app-button" href={project.url}>
-                      Application
-                    </a>
-                    <a
-                      className="button github-button ml-4"
-                      href={project.github}
-                    >
-                      GitHub
-                    </a>
-                  </div>
-                  <div className="column is-8">
-                    <img className="project-image" src={project.image} alt="" />
+                    <div className="column is-8">
+                      <img
+                        className="project-image"
+                        src={project.image}
+                        alt=""
+                      />
+                    </div>
                   </div>
                 </div>
-              </div>
-              <hr className="main-hr" />
-            </FadeInSection>
-          </div>
-        ))}
+                <hr className="main-hr" />
+              </FadeInSection>
+            </div>
+          ))}
+        </div>
       </div>
     </>
   );
