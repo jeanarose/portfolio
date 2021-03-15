@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
-import Portfolio from "./components/Portfolio/Portfolio";
+import Project from "./components/Project/Project";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Hero />
       <div className="gradient-section">
         <About />
-        <Portfolio />
+        <Project/>
         <Footer />
       </div>
     </>
