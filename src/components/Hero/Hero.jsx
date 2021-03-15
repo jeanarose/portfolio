@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 // import heroImage from "../../images/hero-background.png";
-import heroImage from "../../images/hero-test.png";
 import "./Hero.css";
 
 const Hero = (props) => {
