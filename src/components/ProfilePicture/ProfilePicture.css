@@ -1,0 +1,17 @@
+.profile-picture-blob {
+    max-width: 100%;
+}
+
+.light-blue-blob {
+  stroke: none;
+  fill-rule: evenodd;
+  fill: rgb(66.268921%, 81.959534%, 100%);
+  fill-opacity: 1;
+}
+
+.dark-blue-blob {
+  stroke: none;
+  fill-rule: evenodd;
+  fill: rgb(18.429565%, 49.798584%, 100%);
+  fill-opacity: 1;
+}

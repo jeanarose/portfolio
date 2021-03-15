@@ -21,16 +21,16 @@
 }
 
 .project-section {
-  background: #A9D1FF; /* fallback for old browsers */
+  background: #6190E8; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom,
     whitesmoke,
-    #A9D1FF
+    #6190E8
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to bottom,
     whitesmoke,
-    #A9D1FF
+    #6190E8
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
