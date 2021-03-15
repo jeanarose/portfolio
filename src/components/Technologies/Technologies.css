@@ -1,0 +1,33 @@
+/* .technology-section {
+  background: url("../../images/technology-background.png");
+  background-size: cover;
+  padding-bottom: 10rem;
+} */
+
+.fa-react {
+  color: #61dafb;
+}
+
+.fa-node-js {
+  color: #73aa63;
+}
+
+.fa-html5 {
+  color: #e44d26;
+}
+
+.fa-css3-alt {
+  color: #264de4;
+}
+
+.fa-js-square {
+  color: #fcdc00;
+}
+
+.fa-palette {
+  color: #00c4cc;
+}
+
+.fa-wordpress-simple {
+  color: #21759b;
+}

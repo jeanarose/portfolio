@@ -1,8 +1,5 @@
 .project-image {
   border-radius: 0.5%;
-  /* height: 400px;
-  width: 100%;
-  object-fit: cover; */
 }
 
 .main-hr {
@@ -10,24 +7,30 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-hr {
+/* hr {
   border: 0;
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.283);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+} */
+
+.project-hr {
+  border: 0;
+  height: 0;
+  border-top: 2px solid #363636;
 }
 
 .project-section {
-  background: #83a4d4; /* fallback for old browsers */
+  background: #A9D1FF; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom,
     whitesmoke,
-    #83a4d4
+    #A9D1FF
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to bottom,
     whitesmoke,
-    #83a4d4
+    #A9D1FF
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -48,20 +51,6 @@ hr {
 .github-button:hover {
   border: solid 2px #363636;
   background-color: #363636;
-  color: #363636;
+  color: whitesmoke;
   transition: 0.7s;
 }
-/* 
-.app-button, .github-button {
-  background-color: transparent;
-  border: solid 2px #363636;
-  color: #363636;
-  transition: 0.3s;
-}
-
-.app-button:hover, .github-button:hover {
-  border: solid 2px #363636;
-  background-color: #363636;
-  color: white;
-  transition: 0.5s;
-} */

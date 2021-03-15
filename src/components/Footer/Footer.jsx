@@ -6,9 +6,7 @@ const Footer = (props) => {
     <footer className="footer pb-6 ">
       <div className="content has-text-centered">
         <p>
-          <strong className="">Portfolio</strong> by Jeana Rose
-          Mathis. The source code is licensed by
-          <a href="http://opensource.org/licenses/mit-license.php"> MIT</a>.
+          <strong>Jeana Rose Mathis 2021©</strong>
         </p>
       </div>
     </footer>

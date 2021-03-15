@@ -18,17 +18,3 @@ html {
 .break {
   border: 10px solid #363636;
 }
-
-/* .gradient-section {
-  background: #ff8008; 
-  background: -webkit-linear-gradient(
-    to left,
-    #ffc837,
-    #ff8008
-  ); 
-  background: linear-gradient(
-    to left,
-    #ffc837,
-    #ff8008
-  ); 
-} */

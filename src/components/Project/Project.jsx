@@ -10,7 +10,7 @@ import codeQuizImage from "../../images/code-quiz.png";
 import burgerLoggerImage from "../../images/burger-logger.png";
 
 const Project = (props) => {
-  const [projects, setProject] = useState([
+  const [projects] = useState([
     {
       name: "Roam",
       description:
@@ -77,7 +77,7 @@ const Project = (props) => {
   ]);
   return (
     <>
-      <div className="project-section">
+      <div id="projects" className="project-section">
         <p className="title has-text-centered is-size-1 mt-6 pt-6">Projects</p>
         <div className="columns is-multiline is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd mt-6">
           {projects.map((project) => (
@@ -89,7 +89,7 @@ const Project = (props) => {
                       <h1 className="title is-size-3 mb-0 ">{project.name}</h1>
                       <div className="columns mb-0">
                         <div className="column is-4 mb-0">
-                          <hr className="mb-0" />
+                          <hr className="mb-0 project-hr" />
                         </div>
                       </div>
                       <p className="project-description mt-0 mb-3 pr-6">

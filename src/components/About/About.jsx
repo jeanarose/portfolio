@@ -5,8 +5,7 @@ import profilePicture from "../../images/profile-element.png";
 const About = () => {
   return (
     <>
-      <div className="about-section mt-6 pt-6">
-        <div className="" id="about">
+      <div id="about" className="about-section mt-6 pt-6">
           <h1 className="title is-size-1 has-text-centered has-text-light">
             About
           </h1>
@@ -43,7 +42,6 @@ const About = () => {
               </p>
             </div>
           </div>
-        </div>
       </div>
     </>
   );
