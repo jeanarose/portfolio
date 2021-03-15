@@ -11,9 +11,11 @@ const Hero = (props) => {
       <div className="hero-body">
         <div className="">
           <p className="title is-size-1 hero-title ml-6">
-            Hi, I'm Jeana Rose. 
+            Hi, I'm <span className="name">Jeana Rose</span>.
           </p>
-          <p className="subtitle hero-subtitle is-size-1 ml-6">I am a full stack developer.</p>
+          <p className="subtitle hero-subtitle is-size-1 ml-6">
+            I am a full stack developer.
+          </p>
         </div>
       </div>
     </section>

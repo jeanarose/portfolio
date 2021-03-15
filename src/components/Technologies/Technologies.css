@@ -1,8 +1,10 @@
-/* .technology-section {
-  background: url("../../images/technology-background.png");
-  background-size: cover;
-  padding-bottom: 10rem;
-} */
+.technology-card {
+  transition: all 0.35s ease-in-out;
+}
+
+.technology-card:hover {
+  transform: scale(1.1);
+}
 
 .fa-react {
   color: #61dafb;

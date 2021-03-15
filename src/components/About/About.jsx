@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-// import profilePicture from "../../images/profile-element.png";
 import ProfilePicture from "../ProfilePicture/ProfilePicture"
 
 const About = () => {
@@ -12,7 +11,6 @@ const About = () => {
           </h1>
           <div id="about" className="columns is-vcentered pr-5 pl-5">
             <div className="column is-6">
-              {/* <img className="profile-picture" src={profilePicture} alt="" /> */}
               <ProfilePicture />
             </div>
             <div className="column is-6 p-6 has-text-light">

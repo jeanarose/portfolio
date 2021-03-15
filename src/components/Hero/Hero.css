@@ -11,37 +11,9 @@
   font-size: 40px !important;
 }
 
-/* 
-.hero-title {
-  position: absolute;
-  top: 40%;
-  max-width: 800px;
-  font-size: 65px !important;
+.name {
+  color: #2f7fff;
 }
-
-@media screen and (max-width: 865px) {
-  .hero-title{
-    font-size: 50px !important;
-    position: absolute;
-    top: 26%;
-  }
-}
-
-@media screen and (max-width: 687px) {
-  .hero-title{
-    font-size: 40px !important;
-    position: absolute;
-    top: 23%;
-  }
-}
-
-@media screen and (max-width: 569px) {
-  .hero-title{
-    position: absolute;
-    top: 23%;
-    font-size: 30px !important;
-  }
-} */
 
 @media screen and (max-width: 1023px) {
   .hero-title {

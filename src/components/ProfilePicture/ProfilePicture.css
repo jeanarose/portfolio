@@ -3,7 +3,7 @@
 }
 
 #image {
-  transition: all 0.2s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 
 .light-blue-blob {
@@ -11,18 +11,19 @@
   fill-rule: evenodd;
   fill: rgb(66.268921%, 81.959534%, 100%);
   fill-opacity: 1;
-  transition: all 0.2s ease-in-out;
+  /* transition: all 0.35s ease-in-out; */
 }
 
-#image:hover, .light-blue-blob:hover,
+/* #image:hover, .light-blue-blob:hover,
 .dark-blue-blob:hover {
   transform: scale(1.1);
-}
+} */
 
 .dark-blue-blob {
   stroke: none;
   fill-rule: evenodd;
-  fill: rgb(18.429565%, 49.798584%, 100%);
+  fill: #2f7fff;
   fill-opacity: 1;
+  /* transition: all 0.35s ease-in-out; */
 }
 
