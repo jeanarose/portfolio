@@ -11,7 +11,7 @@ const About = () => {
             About
           </h1>
           <div id="about" className="columns is-vcentered pr-5 pl-5">
-            <div className="column is-6 about-me">
+            <div className="column is-6">
               {/* <img className="profile-picture" src={profilePicture} alt="" /> */}
               <ProfilePicture />
             </div>
