@@ -5,7 +5,7 @@ import "./Navbar.css";
 const Navbar = (props) => {
   return (
     <nav
-      className="navbar ml-4 mr-4"
+      className="navbar pl-4 pr-4"
       role="navigation"
       aria-label="main navigation"
     >

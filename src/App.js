@@ -12,9 +12,11 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <About />
-      <Portfolio />
-      <Footer />
+      <div className="gradient-section">
+        <About />
+        <Portfolio />
+        <Footer />
+      </div>
     </>
   );
 }
