@@ -19,3 +19,5 @@ a.navbar-item.has-text-right.has-text-light:hover {
   background-color: whitesmoke;
 }
 
+.fa-linkedin, .fa-github { transition: all .2s ease-in-out; }
+.fa-linkedin:hover, .fa-github:hover { transform: scale(1.1); }
