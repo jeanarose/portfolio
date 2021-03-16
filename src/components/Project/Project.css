@@ -1,9 +1,13 @@
 /* Project images */
 .project-image {
   border-radius: 0.5%;
-  /* width: 50rem; */
-  /* max-width: 28em; */
-  width: 100%;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 2%);
+  transition: all 0.35s ease-in-out;
+}
+
+.project-image:hover {
+  transform: scale(1.05);
 }
 
 /* Horizontal lines */

@@ -4,7 +4,7 @@
 }
 
 .technology-card:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
 
 /* Font Awesome icon colors */

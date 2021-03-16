@@ -105,7 +105,7 @@ const Project = (props) => {
         {projects.map((project) => (
           <FadeInSection>
             <hr className="main-hr" />
-            <div className="columns ml-2 mr-2">
+            <div className="columns ml-5 mr-5">
               <div className="column is-4">
                 <h1 className="title is-size-3 mb-0 ">{project.name}</h1>
                 <div className="columns mb-0">
@@ -123,15 +123,15 @@ const Project = (props) => {
                 <p className="project-description mt-0 mb-4 pr-6">
                   {project.description}
                 </p>
-                <a className="button app-button" href={project.url}>
+                <a target="_blank" className="button app-button" href={project.url}>
                   Application
                 </a>
-                <a className="button github-button ml-4" href={project.github}>
+                <a target="_blank" className="button github-button ml-4" href={project.github}>
                   GitHub
                 </a>
               </div>
               <div className="column is-8">
-                <a href={project.url}>
+                <a target="_blank" href={project.url}>
                   <img
                     className="project-image"
                     src={project.image}
