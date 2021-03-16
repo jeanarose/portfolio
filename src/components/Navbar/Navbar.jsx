@@ -11,12 +11,7 @@ const Navbar = (props) => {
       aria-label="main navigation"
     >
       <div className="navbar-brand">
-        <a
-          className="navbar-item is-size-3 has-text-dark"
-          href="https://bulma.io"
-        >
-          JRM
-        </a>
+        <p className="navbar-item is-size-3 has-text-dark">JRM</p>
         <a
           role="button"
           className="navbar-burger mr-0"
@@ -56,7 +51,11 @@ const Navbar = (props) => {
           >
             Projects
           </Link>
-          <a target="_blank" className="navbar-item has-text-right has-text-dark" href={resume}>
+          <a
+            target="_blank"
+            className="navbar-item has-text-right has-text-dark"
+            href={resume}
+          >
             Resume
           </a>
         </div>

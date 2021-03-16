@@ -114,7 +114,7 @@ const Project = (props) => {
                 <div className="columns mb-0 mt-1">
                   <div className="column is-10">
                     {project.technologies.map((technology) => (
-                      <p className="project-technologies button p-3 mr-2 mb-2">
+                      <p className="project-technologies has-text-weight-bold button p-3 mr-2 mb-2">
                         {technology}
                       </p>
                     ))}
