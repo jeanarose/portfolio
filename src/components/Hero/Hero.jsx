@@ -9,7 +9,7 @@ const Hero = (props) => {
   return (
     <section className="hero hero-section is-fullheight mb-6">
       <div className="hero-body">
-        <div className="">
+        <div className="mt-6">
           <p className="title is-size-1 hero-title ml-6">
             Hi, I'm <span className="name">Jeana Rose</span>.
           </p>

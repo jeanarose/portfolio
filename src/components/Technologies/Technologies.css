@@ -1,12 +1,3 @@
-/* Technology card styling */
-.technology-card {
-  transition: all 0.35s ease-in-out;
-}
-
-.technology-card:hover {
-  transform: scale(0.9);
-}
-
 /* Font Awesome icon colors */
 .fa-react {
   color: #61dafb;

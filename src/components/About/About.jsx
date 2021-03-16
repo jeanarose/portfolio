@@ -1,8 +1,8 @@
 import React from "react";
 import "./About.css";
+import profileImage from "../../images/profile-image.png"
 import ProfilePicture from "../ProfilePicture/ProfilePicture";
 import resume from "../../assets/JeanaRose_Mathis_Resume.pdf";
-import { Link } from "react-scroll";
 
 const About = () => {
   return (
@@ -13,7 +13,8 @@ const About = () => {
         </h1>
         <div id="about" className="columns is-vcentered pr-5 pl-5">
           <div className="column is-6">
-            <ProfilePicture />
+            <img src={profileImage} alt=""/>
+            {/* <ProfilePicture /> */}
           </div>
           <div className="column is-6 p-6 has-text-light">
             <h1 className="title has-text-light">Jeana Rose Mathis</h1>
