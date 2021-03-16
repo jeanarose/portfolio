@@ -4,6 +4,9 @@
   background-size: cover;
 }
 
+.hero-image {
+  visibility: hidden;
+}
 /* Typography */
 .hero-title {
   max-width: 800px;
