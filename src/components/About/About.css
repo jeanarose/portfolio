@@ -19,3 +19,10 @@
   color: whitesmoke;
   transition: 0.7s;
 }
+
+@media screen and (max-width: 768px) {
+  .jeanarose {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+  }
+}
