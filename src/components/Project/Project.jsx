@@ -77,7 +77,7 @@ const Project = (props) => {
   ]);
   return (
     <>
-      <div id="projects" className="project-section">
+      <div id="projects" className="project-section mt-5 ml-5">
         <p className="title has-text-centered is-size-1 mt-6 pt-6">Projects</p>
         <div className="columns is-multiline is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd mt-6">
           {projects.map((project) => (

@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import ProfilePicture from "../ProfilePicture/ProfilePicture";
 import resume from "../../assets/JeanaRose_Mathis_Resume.pdf";
+import { Link } from "react-scroll";
 
 const About = () => {
   return (
@@ -41,7 +42,11 @@ const About = () => {
               husband Chad and our dog Moose, exercising, and making memories
               with friends.
             </p>
-            <a className="button resume-button mt-4" href={resume}>
+            <a
+              target="_blank"
+              className="button resume-button mt-4"
+              href={resume}
+            >
               Resume
             </a>
           </div>

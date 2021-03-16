@@ -1,7 +1,9 @@
+/* HTML */
 html {
   background-color: #f5f5f5;
 }
 
+/* Typography */
 .title,
 .subtitle {
   font-family: "Poppins", sans-serif;
@@ -13,8 +15,4 @@ html {
 
 .is-primary {
   background-color: #4287f5 !important;
-}
-
-.break {
-  border: 10px solid #363636;
 }

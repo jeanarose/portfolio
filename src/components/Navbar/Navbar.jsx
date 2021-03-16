@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+import resume from "../../assets/JeanaRose_Mathis_Resume.pdf";
 import "./Navbar.css";
 
 const Navbar = (props) => {
@@ -55,6 +56,9 @@ const Navbar = (props) => {
           >
             Projects
           </Link>
+          <a target="_blank" className="navbar-item has-text-right has-text-dark" href={resume}>
+            Resume
+          </a>
         </div>
         <div className="navbar-end mt-2 mr-0">
           <div className="social-media has-text-right">

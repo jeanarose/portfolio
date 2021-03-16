@@ -1,27 +1,21 @@
+/* Background styling */
 .about-section {
-  background: #ff512f; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #f09819,
-    #ff512f
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #f09819,
-    #ff512f
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ff512f;
+  background: -webkit-linear-gradient(to right, #f09819, #ff512f);
+  background: linear-gradient(to right, #f09819, #ff512f);
 }
 
+/* Buttons */
 .resume-button {
-  border: solid 2px #0575E6;
-  background-color: #0575E6;
+  border: solid 2px #0575e6;
+  background-color: #0575e6;
   color: whitesmoke;
   transition: 0.7s;
 }
 
 .resume-button:hover {
   background-color: transparent;
-  border: solid 2px #0575E6;
+  border: solid 2px #0575e6;
   color: whitesmoke;
   transition: 0.7s;
 }

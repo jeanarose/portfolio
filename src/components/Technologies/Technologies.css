@@ -1,3 +1,4 @@
+/* Technology card styling */
 .technology-card {
   transition: all 0.35s ease-in-out;
 }
@@ -6,6 +7,7 @@
   transform: scale(1.1);
 }
 
+/* Font Awesome icon colors */
 .fa-react {
   color: #61dafb;
 }

@@ -1,3 +1,18 @@
+/* Navbar styling */
+#navbarBasicExample, .navbar {
+  background-color: whitesmoke;
+}
+
+/* Navbar brand styling */
+.navbar-brand:hover {
+  background-color: whitesmoke !important;
+}
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar item styling */
 .navbar-item:hover {
   color: black;
   background-color: whitesmoke !important;
@@ -7,17 +22,6 @@ a.navbar-item.has-text-right.has-text-light:hover {
   background-color: whitesmoke;
 }
 
-.navbar-brand:hover {
-  background-color: whitesmoke !important;
-}
-
-.navbar-brand {
-  font-family: 'Poppins', sans-serif;
-}
-
-#navbarBasicExample, .navbar {
-  background-color: whitesmoke;
-}
-
+/* Social media links styling */
 .fa-linkedin, .fa-github { transition: all .2s ease-in-out; }
 .fa-linkedin:hover, .fa-github:hover { transform: scale(1.1); }

@@ -1,44 +1,28 @@
+/* Project images */
 .project-image {
   border-radius: 0.5%;
 }
 
+/* Horizontal lines */
 .main-hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/* hr {
+.project-hr {
   border: 0;
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.283);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-} */
-
-.project-hr {
-  border: 0;
-  height: 0;
-  border-top: 2px solid #363636;
 }
 
-.project-section {
-  background: #0b0f13; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to bottom,
-    whitesmoke,
-    #0575E6
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    whitesmoke,
-    #0575E6
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
+/* Project description */
 .project-description {
   font-family: "Lora", serif;
   font-size: large;
 }
 
+/* Buttons */
 .app-button,
 .github-button {
   background-color: transparent;

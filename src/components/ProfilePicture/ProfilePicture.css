@@ -1,6 +1,9 @@
+/* Styling on entire blob */
 .profile-picture-blob {
   width: 127%;
 }
+
+/* Styling for blobs and image */
 
 #image {
   transition: all 0.35s ease-in-out;
@@ -9,7 +12,7 @@
 .light-blue-blob {
   stroke: none;
   fill-rule: evenodd;
-  fill: rgb(66.268921%, 81.959534%, 100%);
+  fill: #a9d1ff;
   fill-opacity: 1;
   /* transition: all 0.35s ease-in-out; */
 }
