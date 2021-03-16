@@ -15,10 +15,10 @@ const Hero = (props) => {
           <img src={blobOne} alt="" />
         </div>
       </div>
-      <div className="columns ml-4 mr-4">
+      <div className="columns pl-6 ml-4 mr-4">
         <div className="column is-7">
           <p className="title is-size-1 hero-title">
-            Hi, I'm <span className="name">Jeana Rose</span>.
+            Hi, I'm Jeana Rose.
           </p>
           <p className="subtitle hero-subtitle is-size-1">
             I am a full stack developer.

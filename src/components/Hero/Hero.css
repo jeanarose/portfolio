@@ -16,10 +16,6 @@
   font-size: 40px !important;
 }
 
-.name {
-  color: #2f7fff;
-}
-
 /* These stylings will take effect at 1023px */
 @media screen and (max-width: 1023px) {
   .hero-title {
