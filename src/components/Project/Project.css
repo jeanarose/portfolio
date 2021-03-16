@@ -1,6 +1,9 @@
 /* Project images */
 .project-image {
   border-radius: 0.5%;
+  /* width: 50rem; */
+  /* max-width: 28em; */
+  width: 100%;
 }
 
 /* Horizontal lines */
