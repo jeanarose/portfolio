@@ -13,7 +13,7 @@ const Project = (props) => {
   const [projects] = useState([
     {
       name: "Roam",
-      technologies: ["React", "Node JS", "Express", "MongoDB", "Mongoose"],
+      technologies: ["React", "Express", "MongoDB", "Mongoose"],
       description:
         "Roam is a group vacation planning application that allows users to create a trip and invite their travel companions to plan the trip with them. With Roam you can easily track expenses and split costs among group members. Roam also features a group checklist to streamline the trip planning process.",
       url: "www.roam-together.com",
@@ -25,11 +25,9 @@ const Project = (props) => {
       name: "Dog Meet Dog",
       technologies: [
         "Handlebars",
-        "Node JS",
         "Express",
         "MySQL",
         "Sequelize",
-        "jQuery",
       ],
       description:
         "Dog Meet Dog is a social media app for dogs to connect with other dogs, because your pup needs a furever friend too.",
@@ -110,15 +108,18 @@ const Project = (props) => {
                       <h1 className="title is-size-3 mb-0 ">{project.name}</h1>
                       <div className="columns mb-0">
                         <div className="column is-4 mb-0">
-                          <hr className="mb-0 project-hr" />
+                          {/* <hr className="mb-0 project-hr" /> */}
                         </div>
                       </div>
-                      {project.technologies.map((technology) => (
-                        <p className="project-technologies button p-3 mr-2 mb-2 is-italic">
-                          {technology}
-                        </p>
-                      ))}
-                      {/* <hr className="project-hr"/> */}
+                      <div className="columns mb-0 mt-1">
+                        <div className="column is-10">
+                          {project.technologies.map((technology) => (
+                            <p className="project-technologies button p-3 mr-2 mb-2">
+                              {technology}
+                            </p>
+                          ))}
+                        </div>
+                      </div>
                       <p className="project-description mt-0 mb-3 pr-6">
                         {project.description}
                       </p>
