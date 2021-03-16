@@ -22,6 +22,19 @@
   font-size: large;
 }
 
+/* Project technologies */
+.project-technologies {
+  border-radius: 25px !important;
+  background-color: #2f7fff;
+  color: white;
+  font-size: 13px;
+}
+
+.project-technologies:hover {
+  color: white;
+  cursor: auto !important;
+}
+
 /* Buttons */
 .app-button,
 .github-button {

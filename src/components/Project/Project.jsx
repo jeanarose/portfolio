@@ -13,8 +13,9 @@ const Project = (props) => {
   const [projects] = useState([
     {
       name: "Roam",
+      technologies: ["React", "Node JS", "Express", "MongoDB", "Mongoose"],
       description:
-        "Roam is a group vacation planning application built using the MERN stack. The application allows users to create a trip and invite their travel companions to plan the trip with them. With Roam you can easily track expenses and split costs among group members. Roam also features a group checklist to streamline the trip planning process.",
+        "Roam is a group vacation planning application that allows users to create a trip and invite their travel companions to plan the trip with them. With Roam you can easily track expenses and split costs among group members. Roam also features a group checklist to streamline the trip planning process.",
       url: "www.roam-together.com",
       github: "https://github.com/jeanarose/roam",
       image: roamImage,
@@ -22,8 +23,16 @@ const Project = (props) => {
     },
     {
       name: "Dog Meet Dog",
+      technologies: [
+        "Handlebars",
+        "Node JS",
+        "Express",
+        "MySQL",
+        "Sequelize",
+        "jQuery",
+      ],
       description:
-        "Dog Meet Dog is a social media app for dogs to connect with other dogs, because your pup needs a furever friend too. This app was built using primarily Handlebars and server-side routing.",
+        "Dog Meet Dog is a social media app for dogs to connect with other dogs, because your pup needs a furever friend too.",
       url: "https://gentle-sea-84823.herokuapp.com/",
       github: "https://github.com/jeanarose/dog-meet-dog",
       image: dogMeetDogImage,
@@ -31,8 +40,9 @@ const Project = (props) => {
     },
     {
       name: "Visualize",
+      technologies: ["jQuery", "Pexels API"],
       description:
-        "Visualize is a vision board generator designed to guide the user towards their goals and provide images to choose from. Visualize utilized jQuery and DOM manipulation.",
+        "Visualize is a vision board generator designed to guide the user towards their goals and provide images to choose from.",
       url: "https://jeanarose.github.io/vision-board/",
       github: "https://github.com/jeanarose/vision-board",
       image: visualizeImage,
@@ -40,6 +50,7 @@ const Project = (props) => {
     },
     {
       name: "Weather Dashboard ",
+      technologies: ["jQuery", "Open Weather API"],
       description:
         "Weather Dashboard is a dynamic jQuery app designed to display the forecast for the current day and the next five days of a city that the user searches. The application stores the user's recently searched cities into local storage and displays them on the left-hand side. The user can simply click on the recently searched cities to view the weather for each city.",
       url: "https://jeanarose.github.io/weather-dashboard",
@@ -49,6 +60,7 @@ const Project = (props) => {
     },
     {
       name: "Password Generator",
+      technologies: ["JavaScript"],
       description:
         "Password Generator was created to generate a random password when the button Generate Password is clicked. The password is dependent on answers to a series of prompts that the user receives when the button is clicked.",
       url: "https://jeanarose.github.io/password-generator",
@@ -58,6 +70,7 @@ const Project = (props) => {
     },
     {
       name: "Code Quiz",
+      technologies: ["JavaScript"],
       description:
         "Code Quiz is here to test users' coding knowledge. At the start of a button, the user is given a timed quiz that displays one question at a time. Code Quiz was designed to be a dynamic JavaScript application.",
       url: "https://jeanarose.github.io/code-quiz",
@@ -67,6 +80,7 @@ const Project = (props) => {
     },
     {
       name: "Burger Logger",
+      technologies: ["Handlebars", "jQuery", "MVC"],
       description:
         "Burger Logger is a fun app to keep track of burgers that have been devoured and burgers that have yet to be devoured. This app is a simple representation of the usefulness of a model-view controller (MVC). ",
       url: "https://dry-anchorage-08139.herokuapp.com/",
@@ -75,6 +89,13 @@ const Project = (props) => {
       id: "aslikuj239c87wge39df73",
     },
   ]);
+
+  useEffect(() => {
+    projects.map((project) => {
+      const technology = project.technologies.join(", ");
+      console.log(technology);
+    });
+  }, []);
   return (
     <>
       <div id="projects" className="project-section mt-5 ml-5">
@@ -92,6 +113,12 @@ const Project = (props) => {
                           <hr className="mb-0 project-hr" />
                         </div>
                       </div>
+                      {project.technologies.map((technology) => (
+                        <p className="project-technologies button p-3 mr-2 mb-2 is-italic">
+                          {technology}
+                        </p>
+                      ))}
+                      {/* <hr className="project-hr"/> */}
                       <p className="project-description mt-0 mb-3 pr-6">
                         {project.description}
                       </p>
