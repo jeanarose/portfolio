@@ -12,11 +12,11 @@ const Hero = (props) => {
     <>
       <div className="columns">
         <div className="column is-4">
-          <img src={blobOne} alt="" />
+          <img className="blob-one" src={blobOne} alt="" />
         </div>
       </div>
-      <div className="columns pl-6 ml-4 mr-4">
-        <div className="column is-7">
+      <div className="columns">
+        <div className="column hero-titles is-7 ml-6">
           <p className="title is-size-1 hero-title">
             Hi, I'm Jeana Rose.
           </p>
@@ -24,8 +24,8 @@ const Hero = (props) => {
             I am a full stack developer.
           </p>
         </div>
-        <div className="column is-6">
-          <img src={blobTwo} alt="" />
+        <div className="column is-5 has-text-right">
+          <img className="blob-two" src={blobTwo} alt="" />
         </div>
       </div>
     </>

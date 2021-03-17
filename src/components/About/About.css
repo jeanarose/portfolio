@@ -1,6 +1,6 @@
 /* Background styling */
 .about-section {
-  background: #ff512f;
+   background: #ff512f;
   background: -webkit-linear-gradient(to right, #f09819, #ff512f);
   background: linear-gradient(to right, #f09819, #ff512f);
 }
