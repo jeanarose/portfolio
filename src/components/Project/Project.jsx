@@ -127,7 +127,7 @@ const Project = (props) => {
                   Application
                 </a>
                 <a target="_blank" className="button github-button ml-4" href={project.github}>
-                  GitHub
+                  Source Code
                 </a>
               </div>
               <div className="column is-8">
