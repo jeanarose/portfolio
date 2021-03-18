@@ -11,7 +11,7 @@ const Navbar = (props) => {
       aria-label="main navigation"
     >
       <div className="navbar-brand">
-        <p className="navbar-item is-size-3 has-text-dark">JRM</p>
+        <p id="navbar-brand" className="navbar-item is-size-3 has-text-dark">JRM</p>
         <a
           role="button"
           className="navbar-burger mr-0"
@@ -31,7 +31,7 @@ const Navbar = (props) => {
         <div className="navbar-start ml-0">
           <Link
             to="about"
-            className="navbar-item has-text-right has-text-dark"
+            className="navbar-item has-text-right has-text-dark has-text-weight-bold"
             active="text-white"
             spy={true}
             smooth={true}
@@ -42,7 +42,7 @@ const Navbar = (props) => {
           </Link>
           <Link
             to="projects"
-            className="navbar-item has-text-right has-text-dark"
+            className="navbar-item has-text-right has-text-dark has-text-weight-bold"
             active="text-white"
             spy={true}
             smooth={true}
@@ -53,7 +53,7 @@ const Navbar = (props) => {
           </Link>
           <a
             target="_blank"
-            className="navbar-item has-text-right has-text-dark"
+            className="navbar-item has-text-right has-text-dark has-text-weight-bold"
             href={resume}
           >
             Resume

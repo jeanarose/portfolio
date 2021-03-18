@@ -37,9 +37,9 @@ const Technologies = (props) => {
       <div className="columns ml-5 mr-5 is-multiline is-centered">
         {technologies.map((technology) => (
           <div className="column is-3 has-text-centered">
-            <div class="card technology-card">
-              <div class="card-content">
-                <div class="content">
+            <div className="card technology-card">
+              <div className="card-content">
+                <div className="content">
                   <>
                     <i className={`${technology.icon} fa-10x`}></i>
                     <p className="title is-size-3 mt-2">{technology.name}</p>
